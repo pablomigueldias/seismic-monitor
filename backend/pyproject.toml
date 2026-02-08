@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "seismic-api"
+version = "0.1.0"
+description = "API de Monitoramento Sísmico"
+authors = ["Pablo Ortiz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+sqlalchemy = "^2.0.25"
+psycopg2-binary = "^2.9.9"
+requests = "^2.31.0"
+pydantic-settings = "^2.1.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+isort = "^5.13.2"
+taskipy = "^1.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
