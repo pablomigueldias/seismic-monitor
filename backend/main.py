@@ -16,6 +16,7 @@ origins = [
     "http://localhost",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://seismic-monitor.onrender.com"
 ]
 
 app.add_middleware(
@@ -27,6 +28,7 @@ app.add_middleware(
 )
 
 app.include_router(api_router, prefix=settings.API_V1_STR)
+
 
 @app.get('/health')
 def health_check():
