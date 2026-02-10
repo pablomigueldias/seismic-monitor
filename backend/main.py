@@ -17,6 +17,7 @@ origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "https://seismic-monitor.vercel.app/"
+    "https://seismic-monitor.vercel.app/api/v1/earthquakes"
 ]
 
 app.add_middleware(
