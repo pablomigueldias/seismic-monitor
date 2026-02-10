@@ -21,7 +21,7 @@ flowchart TD
     classDef external fill:#f3f4f6,stroke:#4b5563,stroke-width:2px,stroke-dasharray: 5 5;
 
     subgraph External_Services ["External Services"]
-        USGS["📡 USGS API<br/>(Earthquake Feed)"]:::external
+        USGS["USGS API<br/>(Earthquake Feed)"]:::external
     end
 
     subgraph Client_Side ["Client Side"]
@@ -69,10 +69,10 @@ erDiagram
 sequenceDiagram
     autonumber
     actor User
-    participant UI as ⚛️ Frontend (React)
-    participant API as 🐍 Backend (FastAPI)
-    participant DB as 🐘 Database (Postgres)
-    participant USGS as 📡 USGS API
+    participant UI as Frontend (React)
+    participant API as Backend (FastAPI)
+    participant DB as Database (Postgres)
+    participant USGS as USGS API
 
     Note over User, UI: User initiates update
     User->>UI: Clicks "Sync Data" Button
