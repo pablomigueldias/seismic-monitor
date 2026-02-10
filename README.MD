@@ -162,11 +162,12 @@ classDiagram
 
 ## Tech Stack
 
-Layer,Technology,Details
-Infrastructure,Docker,"Docker Compose, Multi-stage builds"
-Backend,Python 3.11,"FastAPI, SQLAlchemy, Alembic (Structure)"
-Frontend,React 18,"Vite, TypeScript, React Query (TanStack)"
-Database,PostgreSQL,Relational Geospatial Persistence
+| Layer | Technology | Details |
+| :--- | :--- | :--- |
+| **Infrastructure** | Docker | Docker Compose, Multi-stage builds |
+| **Backend** | Python 3.11 | FastAPI, SQLAlchemy, Alembic (Structure) |
+| **Frontend** | React 18 | Vite, TypeScript, React Query (TanStack) |
+| **Database** | PostgreSQL | Relational Geospatial Persistence |
 
 
 ## Quick Start Guide
