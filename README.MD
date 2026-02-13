@@ -189,9 +189,9 @@ docker compose up --build
 
 Access the Application:
 
-- Main Dashboard: http://localhost:5173
+- Main Dashboard: https://seismic-monitor.vercel.app/
 
-- API Documentation: http://localhost:8000/docs
+- API Documentation: https://seismic-monitor.onrender.com/docs
 
 
 ## Developed by Pablo Ortiz • 2026
